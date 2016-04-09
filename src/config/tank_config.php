@@ -15,7 +15,10 @@
 	//	exit();
 	//}
 
-$hostname_tankdb = getenv('MYSQL_CONNECTION');      //database  host 
+$db_port= getenv('MYSQL_PORT_3306_TCP_PORT');
+$db_host= getenv('MYSQL_PORT_3306_TCP_ADDR');
+
+$hostname_tankdb = "$db_host:$db_port";      //database  host 
 $database_tankdb = getenv('MYSQL_INSTANCE_NAME');             //database name
 $username_tankdb = getenv('MYSQL_USERNAME');           //mysql user name
 $password_tankdb = getenv('MYSQL_PASSWORD');           //mysql password
