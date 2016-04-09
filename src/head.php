@@ -1,7 +1,7 @@
 <?php require_once('config/tank_config.php'); ?>
 <?php
 
-date_default_timezone_set('PRC');
+date_default_timezone_set('Asia/Shanghai');
     
 $colname_Recordset_anc = "2";
 
