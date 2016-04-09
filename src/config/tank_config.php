@@ -15,13 +15,10 @@
 	//	exit();
 	//}
 
-$db_port= 3306;
-$db_host= 10.10.26.58;
-
-$hostname_tankdb = "uhFZqO2avKXcVu7H:pTAkv";      //database  host 
-$database_tankdb = "xJZGVt1MiDNPQbml";             //database name
-$username_tankdb = "pTAkwmsILti0CGBNY";           //mysql user name
-$password_tankdb = "uhFZqO2avKXcVu7H";           //mysql password
+$hostname_tankdb = getenv('MYSQL_CONNECTION');      //database  host 
+$database_tankdb = getenv('MYSQL_INSTANCE_NAME');             //database name
+$username_tankdb = getenv('MYSQL_USERNAME');           //mysql user name
+$password_tankdb = getenv('MYSQL_PASSWORD');           //mysql password
 
 $tankdb = mysql_connect($hostname_tankdb, $username_tankdb, $password_tankdb);
 
