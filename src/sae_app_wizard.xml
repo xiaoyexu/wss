@@ -1,0 +1,4 @@
+<appwizard><introduction><name></name><author>wss131</author><icon></icon><homepage></homepage><description><![CDATA[]]></description></introduction><platform><services><service></service><service name="wssfile" params="wssfile">Storage</service><service>Mysql</service></services><appconfig><tpl><![CDATA[
+name: <<appname>>
+version: <<version>>
+]]></tpl></appconfig></platform><code><initScript>sae/install.php</initScript></code></appwizard>
