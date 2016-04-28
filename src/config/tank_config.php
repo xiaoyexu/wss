@@ -11,10 +11,10 @@
 	//jump
 	//if( $lvyi_result == false ){
 	//	header("Content-type: text/html; charset=utf-8"); 
-	//	echo '你还没有安装WSS，请在<a href="/sae/install.php?r='.rand().'">这里</a>一键安装WSS。';
+	//	echo '锟姐还没锟叫帮拷装WSS锟斤拷锟斤拷锟斤拷<a href="/sae/install.php?r='.rand().'">锟斤拷锟斤拷</a>一锟斤拷装WSS锟斤拷';
 	//	exit();
 	//}
-
+date_default_timezone_set('PRC');
 $db_port= getenv('MYSQL_PORT_3306_TCP_PORT');
 $db_host= getenv('MYSQL_PORT_3306_TCP_ADDR');
 
