@@ -14,7 +14,7 @@
 	//	echo '�㻹û�а�װWSS������<a href="/sae/install.php?r='.rand().'">����</a>һ��װWSS��';
 	//	exit();
 	//}
-date_default_timezone_set('PRC');
+ date_default_timezone_set('PRC');
 $db_port= getenv('MYSQL_PORT_3306_TCP_PORT');
 $db_host= getenv('MYSQL_PORT_3306_TCP_ADDR');
 
